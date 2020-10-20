@@ -2,7 +2,7 @@
 
 import pafy
 
-url = input("Enter the URL: ")
+url = input("Enter the YouTube video URL: ")
 video = pafy.new(url)
 
 audiostream = video.getbestaudio()
